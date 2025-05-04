@@ -1,0 +1,230 @@
+
+.body{
+    background: url("public/assets/images/p1.jpg")no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+button {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius:8px;
+    background:#89A8B2;
+    background:  fixed;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: #000000;
+    background:#00A8A8;
+    border: 2px solid white;
+}
+
+h1 {
+    color: #0a0a0a;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    /* border: #f6f4f4 1px inset;
+    border-radius: 20px; */
+}
+h2{
+
+    color: #0b0b0b;
+    font-family: "Playwrite IN", serif;
+    font-size: 2.5rem;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+a{
+    color: rgb(245, 241, 245);
+    text-decoration: none;
+    font-family: "PT Serif", serif;;
+}
+a:hover{
+    color:rgb(12, 11, 11);
+}
+
+.label {
+    padding: 10px 20px;
+    border: 2px solid #00A8A8;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*login from start*/
+
+.login_form{
+   margin: 150px;
+ margin-left: -50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding:  30px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 15px rgba(166, 54, 54, 0.2);
+    text-align: center;
+    display: block;
+    
+}
+
+
+
+.input-box {
+    background: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    font-size: 1rem;
+    outline: none;
+    border-bottom: solid 2px black;
+}
+
+.input-box::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.button{
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.radio-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Hide the default radio button */
+input[type="radio"] {
+    display: none;
+}
+
+
+
+/* Default unselected state */
+input[type="radio"] + label {
+    background: white;
+    color: black;
+    border-color: #ccc;
+}
+
+/* Checked (selected) state */
+input[type="radio"]:checked + label {
+    background: #E6FAF9; /* Light background */
+    color: black;
+    border: 2px solid #00A8A8; /* Active border color */
+}
+.forgot a {
+    display: flex;
+    margin-left: 200px;
+    color: #040404;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+    color:rgb(249, 78, 26);
+}
+
+.nav-btn{
+    display: flex;
+    padding: 8px 5px;
+    width: auto;
+    margin-left: 40px;
+    border: 2px solid #111f61;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #484645;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+/* validation  */ 
+
+.validation{
+    
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(62, 11, 11);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  
+}
+
+/* Registration Contanier */
+
+.registration-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding:  30px;
+    width: 500px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 15px rgba(166, 54, 54, 0.2);
+    text-align: center;
+    display: block;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    
+}
+
+#select::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+#country-optgroup-Asia{
+        background-color:rgb(83, 134, 134);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+.input-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 1.2rem;
+  } 
+
+
